@@ -59,7 +59,7 @@ Step 4: Deal Cards
 The deck will lose 1 card per person, twice. Each card will be taken from the beginning of the array and deck array will
   shift over and the array will have a counter in which when it reaches 0, the deck will be "empty" and will be randomized again
 
-*Start with Player 1*
+*Start with Player*
 *If there are no more user-players, cycle to next computer-player, then go to house hand*
 
 Step 5: Check for Blackjack/Hold/Bust
@@ -67,11 +67,6 @@ Examine the total value of the player's hand. If total is 21, declare "Blackjack
   of 17-20, then the player will "Hold". If below or at 16, the player will hit. The options will be automatically set for
   computer-controlled players and the house hand. The user-controlled players will have the option to choose either option.
   Continue until "Bust" or "Hold". Bust is if the hand is >21.
-
-Step 6: Cycle to next Player
-If at Player n, shift to Player n+1, if there is no n+1, then shift to house hand.
-The player array will be displayed for informational needs above.
-Continue to shift until the house has "Bust" or "Hold"
 
 *At this point the House as either bust or hold*
 
